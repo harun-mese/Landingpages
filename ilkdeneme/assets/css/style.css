@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.editable{
+    outline-offset: 0;
+    outline: none;
+}
+
+h1{
+    
+font-size: 1rem;
+}p, button{
+width: fit-content;
+font-size: 1rem;
+}
+
+#header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+height: 64px;
+width: 100%;
+border-bottom: 1px solid #fafafa;
+background-color: #fafafa;
+
+}
+#header nav{
+display: none;
+align-items: center;
+justify-content: space-between;
+}
+#header .right::after{
+content: '\2630';
+font-size: large;
+}
+#header nav li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.btn{
+    padding: 15px 10px;
+    border: 3px solid red;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 10px;
+}
+.btn:active{
+    box-shadow: 2px 2px 3px black;
+}
+img{
+    width: 100%;
+}
+.theme-body::-webkit-scrollbar{
+width: 0px;
+}
+
+iframe{
+   transition: width .1s ease-in;
+   border: 2px solid #fafafa;
+   border-radius: 15px;
+   margin-bottom: 50px;
+   height:calc(100vh - 100px)
+}
+
+iframe::-webkit-scrollbar{
+    width: 0px;
+    }
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 25px 0;
+}
+.about div{
+    margin: 15px 0;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about img{
+    width: 100%;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-con{
+    margin: 15px 10px;
+}
+
+@media screen and (min-width: 414px ){
+   #header{
+    background-color: aquamarine;
+   }
+   h1{
+    font-size: 2rem;
+   }#header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+#header .right::after{
+    content: '';
+    }
+
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 50px;
+    }
+    .about img{
+        width: 450px;
+    }
+    
+  }
+  @media screen and (min-width: 762px ){
+    #header{
+     background-color:crimson;
+    }
+    h1{
+     font-size: 2rem;
+    }#header nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     }
+ 
+ #header .right::after{
+     content: '';
+     }
+ 
+     .about{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: row;
+         padding: 50px;
+     }
+     .about img{
+         width: 450px;
+     }
+     
+   }
+  @media screen and (min-width: 1024px) {
+   #header{
+    background-color: bisque;
+   }
+     .about img{
+         width: 750px;
+     }
+
+   }
+   @media screen and (min-width: 1400px) {
+    #header{
+     background-color: rgb(199, 196, 255);
+     position: sticky;
+     top: 0;
+     left: 0;
+     right: 0;
+    }
+      .about img{
+          width: 750px;
+      }
+ 
+    }
+
+
+.left{
+    
+}
+.right{
+
+}
+.center{
+
+}
+.row{
+
+}
+.col{
+
+}
+
+
+/* ---------padding--------- */
+
+.p10{
+    padding: 10rem;
+}
+.p15{
+    padding: 15rem; 
+}
+.p20{
+    padding: 20rem;
+}
+.p25{
+    padding: 25rem;
+}
+.pl10{
+    padding-left: 10rem;
+}
+.pl15{
+    padding-left: 15rem;
+}
+.pl20{
+    padding-left: 20rem;
+}
+.pl25{
+    padding-left: 25rem;
+}
+.pr10{
+    padding: 10rem;
+}
+.pr15{
+    padding: 10rem;
+}
+.pr20{
+    padding: 10rem;
+}
+.pr25{
+    padding: 10rem;
+}
+.pt10{
+    padding: 10rem;
+}
+.pt15{
+    padding: 10rem;
+}
+.pt20{
+    padding: 10rem;
+}
+.pt25{
+    padding: 10rem;
+}
+.pb10{
+    padding: 10rem;
+}
+.pb15{
+    padding: 10rem;
+}
+.pb20{
+    padding: 10rem;
+}
+.pb25{
+    padding: 10rem;
+}
+
+/* ---------margin--------- */
+.m10{
+
+}
+.m15{
+    
+}
+.m20{
+    
+}
+.m25{
+    
+}
+.ml10{
+
+}
+.ml15{
+    
+}
+.ml20{
+    
+}
+.ml25{
+    
+}
+.mr10{
+
+}
+.mr15{
+    
+}
+.mr20{
+    
+}
+.mr25{
+    
+}
+.mt10{
+
+}
+.mt15{
+    
+}
+.mt20{
+    
+}
+.mt25{
+    
+}
+.mb10{
+
+}
+.mb15{
+    
+}
+.mb20{
+    
+}
+.mb25{
+    
+}
